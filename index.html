@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Starter Template for Bootstrap 3.3.5</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <style>body{padding-top:50px;}.starter-template{padding:40px 15px;}</style>
+
+    <!--[if IE]>
+        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top paradise-hotel-navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand paradise-hotel-logo" href="#"></a>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav paradise-hotel-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Rooms &amp; Suites</a></li>
+                    <li><a href="#">Reservation</a></li>
+                    <li><a href="#">Activities</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right paradise-hotel-nav">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EN <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">FR</a></li>
+                    <li><a href="#">SP</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!--.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="container">
+        
+        <!-- Hero image and title and slogan -->
+        <div class="row">
+        <div class="starter-template">
+            <h1 class="hero-title">Pellentesque aliquam nibh at aliquam vehicula</h1>
+            <p class="lead">Amazing place to discover</p>
+        </div>
+        </div>
+        
+        
+        <!-- Booking form -->
+        <div class="row">
+            <div class="booking-form">
+                <div class="col-md-3 book-tagline">
+                    <h4>Book a room online</h4>
+                    <p>Lorem ispum solor sid ahmed loresin vane.</p>
+                </div>
+                <div class="col-md-9">
+                    <form class="form-inline" id="book-now-form">
+                        <span style="display:inline-block">
+                            <label for=foo style="display:block">Type of room:</label>
+                            <select class="form-control">
+                              <option>Select a type of room</option>
+                              <option>Single</option>
+                              <option>Double</option>
+                              <option>Suite</option>
+                              <option>King</option>
+                            </select>
+                        </span>
+                        <span style="display:inline-block">
+                            <label for=bar  style="display:block">Check in date:</label>
+                            <input type=text class="form-control" name='checkInDate' placeholder="DD/MM/YYYY" />
+                        </span>
+                        <span style="display:inline-block">
+                            <label for=bar  style="display:block">Check out date:</label>
+                            <input type=text class="form-control" name='checkOutDate' placeholder="DD/MM/YYYY" />
+                        </span>
+                        <span style="display:inline-block">
+                        <label for=foo style="display:block">Adults:</label>
+                            <select class="form-control">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                        </span>
+                        <span style="display:inline-block">
+                        <label for=foo style="display:block">Children:</label>
+                            <select class="form-control">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                        </span>                        
+                        <button type="submit" id="book-now-btn" class="btn btn-primary"></button>
+                    </form>
+                </div>
+            </div>          
+        </div>
+        
+        
+        <div class="row">
+            <div class="rooms">
+            <div class="col-md-4">
+                <div class="room"></div>
+                <span class="title">Single room <b>110 &#8364;</b></span>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer
+                    adipiscing elit, sed diam nonummy nibh
+                    euismod tincidunt ut laoreet dolore magna
+                    aliquam erat volutpat.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <div class="room"></div>
+                <span class="title">Double room <b>180 &#8364;</b></span>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer
+                    adipiscing elit, sed diam nonummy nibh
+                    euismod tincidunt ut laoreet dolore magna
+                    aliquam erat volutpat.
+                </p>
+            </div>
+                <div class="col-md-4">
+                <div class="room"></div>
+                <span class="title">Suite room <b>210 &#8364;</b></span>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer
+                    adipiscing elit, sed diam nonummy nibh
+                    euismod tincidunt ut laoreet dolore magna
+                    aliquam erat volutpat.
+                </p>
+            </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <footer class="bs-footer paradise-footer" role="contentinfo">
+      <div class="container">        
+        <p> &copy; 2012 Paradise Hotel. All Rights Reserved.</p>
+      </div>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>

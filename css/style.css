@@ -1,0 +1,155 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+  font-family: 'DaxCondensedBlack';
+  src: url('fonts/DaxCondensedBlack.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'DaxCondensedLight';
+  src: url('fonts/DaxCondensedLight.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+body {
+    background:#ECECEC url(images/hero.png) no-repeat top center;
+}
+
+.paradise-hotel-navbar {
+    
+    background: url(images/top.png);
+    
+}
+
+.paradise-hotel-logo {
+    background: url(images/Paradise-hotel.png) no-repeat center center;
+    color: #ffffff;
+    width: 161px;
+}
+
+.paradise-hotel-nav {
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 14%;
+}
+
+.hero-title {
+    background: url(images/Tvar-2.png) no-repeat;
+    font-size: 28px;
+    font-family: DaxCondensedBlack;
+    color: #ffffff;
+    font-weight: 900;
+    margin: 253px 0px 0px 0px;
+    text-transform: uppercase;
+    padding: 5px 0px 0px 16px;
+}
+
+
+.lead {
+    background: url(images/Vrstva-8-kopie.png) no-repeat;
+    padding: 0px 0px 0px 16px;
+    color: #ffffff;
+    font-family: DaxCondensedLight;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.rooms {
+    margin-top: 42px;
+    width: 100%;
+    float: left;
+}
+
+.booking-form {
+    background: #ffffff repeat-x;
+    -webkit-border-radius: 3px; /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -moz-border-radius: 3px; /* Firefox 1-3.6 */
+    border-radius: 3px; /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    width: 100%;
+    float: left;
+    height: 99px;
+    margin-top: 13%;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+}
+
+.book-tagline {
+    background: #ECF0F1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #373535;
+    height: 99px;
+    text-align: left;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.book-tagline h4 {
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 20px 0px 20px;   
+    font-size: 18px;
+    color: #373535;
+    font-weight: 700;
+}
+
+
+.book-tagline p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: rgba(55, 53, 53, 0.7);
+    font-weight: 400;
+    line-height: 16px;
+    padding: 0px 20px;
+}
+
+#book-now-form {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(55, 53, 53, 0.7);
+    font-weight: 400;
+    padding: 20px 0px;
+}
+
+#book-now-btn {
+    background: #22A7F0 url(images/Book-now.png) no-repeat center center;
+    font-size: 14px;
+    color: #ffffff;
+    height: 35px;
+    width: 94px;
+}
+
+.room {
+    background: url(images/room_box.png) no-repeat;
+    border-radius: 3px;
+    height: 149px;    
+}
+
+.title {
+    color: #373535;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;    
+}
+
+.rooms p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.paradise-footer{
+    margin-top: 270px;
+    background:url(images/bg-footer.png);
+    height: 66px;    
+}
+
+.paradise-footer p {
+    padding: 30px 0px 0px 0px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 17px;
+    font-size: 12px;
+}
